@@ -453,6 +453,11 @@ with st.form("form1", clear_on_submit= False):
 
         st.write('Total earnings range for host, per booking for ',str(min_nights_input),' nights: \$',str(total_earnings_lb),'to \$',str(total_earnings_ub))
 
+        host_service_fee_lb = round(earning_lb*service_fee,2)
+        host_service_fee_ub = round(earning_ub*service_fee,2)
+        
+        st.write('Estimated service fee to be paid to Airbnb by Host, per booking for ',str(min_nights_input),' nights: \$',str(host_service_fee_lb),'to \$',str(host_service_fee_ub))
+
         # # Send data to the frontend using named arguments.
         # return_value = my_component(name="Blackbeard", ship="Queen Anne's Revenge")
 
@@ -465,8 +470,7 @@ with st.form("form1", clear_on_submit= False):
         cost_to_customer_lb = round(earning_lb * (1+service_fee_airbnb),2)
         cost_to_customer_ub = round(earning_ub * (1+service_fee_airbnb),2)
 
-        st.write('Total cost paid by customer, per booking for ',str(min_nights_input),' nights: \$',str(cost_to_customer_lb),'to \$',str(cost_to_customer_ub))
-
+        st.write('Total cost paid by customer, per booking for (excl tax)',str(min_nights_input),' nights: \$',str(cost_to_customer_lb),'to \$',str(cost_to_customer_ub))
         import nltk
         import re
         nltk.download('stopwords')
