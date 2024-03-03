@@ -9,3 +9,7 @@ wordcloud
 sklearn
 StandardScaler
 sklearn.preprocessing
+sklearn.decomposition
+PCA
+sklearn.cluster
+KMeans
