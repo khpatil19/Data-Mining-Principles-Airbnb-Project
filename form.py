@@ -54,7 +54,7 @@ with st.form("form1", clear_on_submit= False):
         #!/usr/bin/env python
         # coding: utf-8
         import numpy as np
-        import seaborn as sns
+        # import seaborn as sns
         import matplotlib.pyplot as plt
         import warnings
         warnings.filterwarnings('ignore')
