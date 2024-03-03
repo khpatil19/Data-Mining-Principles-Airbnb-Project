@@ -91,8 +91,8 @@ with st.form("form1", clear_on_submit= False):
         # In[9]:
 
 
-        import seaborn as sns
-        import matplotlib.pyplot as plt
+        # import seaborn as sns
+        # import matplotlib.pyplot as plt
 
         # Filter out rows where 'price' is not null
         filtered_data = data.loc[data['price'].notnull(), 'price']
