@@ -13,9 +13,7 @@ import streamlit as st
 #     page_icon="👋",
 # )
 
-st.title("Airbnb Price Optimizer")
-st.subheader("Airbnb Price Optimizer")
-
+st.title("Airbnb Listing Optimizer")
 
 
 
