@@ -4,7 +4,9 @@ pandas
 numpy
 seaborn
 matplotlib
-matplotlib.pyplot
+matplotlib
+matplotlib
+
 nltk
 re
 scikit-learn
