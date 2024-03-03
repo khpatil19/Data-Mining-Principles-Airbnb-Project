@@ -6,6 +6,7 @@ seaborn
 matplotlib
 matplotlib
 matplotlib
+matplotlib
 
 nltk
 re
