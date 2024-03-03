@@ -19,8 +19,6 @@ warnings.filterwarnings('ignore')
 
 st.title("Airbnb Listing Optimizer")
 
-
-
 with st.form("form1", clear_on_submit= False): 
 
     neighborhood_group_input = st.selectbox(
