@@ -429,6 +429,7 @@ with st.form("form1", clear_on_submit= False):
         median_price_ub = round(median_price * 1.125,2)
 
         # print('Suggested price range: $',median_price_lb,'to $',median_price_ub)
+        st.subheader('To make the best of your listing:')
 
         st.write('Suggested price range for your selection: \$ ', str(median_price_lb),' to \$',str(median_price_ub))
 
