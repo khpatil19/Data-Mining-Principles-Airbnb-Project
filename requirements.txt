@@ -4,8 +4,5 @@ pandas
 numpy
 matplotlib
 nltk
-re
 scikit-learn
 wordcloud
-sklearn
-
