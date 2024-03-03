@@ -25,13 +25,9 @@ with st.form("form1", clear_on_submit= False):
         'Where is your listing?',
         ('Brooklyn','Manhattan','Bronx','Queens','Staten Island'))
 
-    st.write('You selected:', neighborhood_group_input)
-
     room_type_input = st.selectbox(
         'What type of room?',
         ('Entire home/apt', 'Private room', 'Shared room'))
-
-    st.write('You selected:', room_type_input)
 
     # min 1, max 89
 
@@ -45,10 +41,8 @@ with st.form("form1", clear_on_submit= False):
     # st.write('You selected ', min_nights_input)
 
     min_nights_input = st.slider('Enter minimum nights', 1, 90, 3)
-    st.write('You selected ', str(min_nights_input))
 
     host_listings_input = st.slider('Enter number of existing listings', 1, 60, 10)
-    st.write('You selected ', str(host_listings_input))
 
     submit = st.form_submit_button("Submit")
 
