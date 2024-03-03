@@ -17,7 +17,7 @@ st.set_page_config(
 )
 
 st.title("Welcome to Airbnb New York!")
-st.subtitle("Let's optimize your listing")
+st.subheader("Let's optimize your listing")
 
 with st.form("form1", clear_on_submit= False): 
 
