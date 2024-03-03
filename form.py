@@ -1,4 +1,10 @@
 import pandas as pd
+import pandas as pd
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import warnings
+warnings.filterwarnings('ignore')
 import streamlit as st
 
 
@@ -59,17 +65,13 @@ with st.form("form1", clear_on_submit= False):
         # In[1]:
 
 
-        import pandas as pd
-        import numpy as np
-        import seaborn as sns
-        import matplotlib.pyplot as plt
+    
 
 
         # In[2]:
 
 
-        import warnings
-        warnings.filterwarnings('ignore')
+        
 
 
         # ## Import Data
