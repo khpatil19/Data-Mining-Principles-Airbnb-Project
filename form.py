@@ -1,6 +1,9 @@
 import pandas as pd
 import streamlit as st
-
+import numpy as np
+# import seaborn as sns
+import matplotlib.pyplot as plt
+import warnings
 
 # import streamlit.components.v1 as components
 # my_component = components.declare_component(
@@ -53,10 +56,7 @@ with st.form("form1", clear_on_submit= False):
     if submit == True:
         #!/usr/bin/env python
         # coding: utf-8
-        import numpy as np
-        # import seaborn as sns
-        import matplotlib.pyplot as plt
-        import warnings
+        
         warnings.filterwarnings('ignore')
 
         # In[1]:
