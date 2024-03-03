@@ -8,3 +8,4 @@ scikit-learn
 wordcloud
 sklearn
 StandardScaler
+sklearn.preprocessing
