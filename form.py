@@ -13,7 +13,7 @@ warnings.filterwarnings('ignore')
 # )
 
 st.set_page_config(
-    page_title="Airbnb Clustering"
+    page_title="Airbnb Clustering",
     page_icon="🏙️",
 )
 
