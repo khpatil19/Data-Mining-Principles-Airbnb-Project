@@ -230,7 +230,7 @@ with st.form("form1", clear_on_submit= False):
 
         # In[242]:
 
-
+        import sklearn
         from sklearn.preprocessing import StandardScaler
         from sklearn.decomposition import PCA
         from sklearn.cluster import KMeans
