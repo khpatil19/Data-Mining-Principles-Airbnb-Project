@@ -12,12 +12,12 @@ warnings.filterwarnings('ignore')
 # url="http://127.0.0.1:53878/form"
 # )
 
-# st.set_page_config(
-#     page_title="Optimizer",
-#     page_icon="👋",
-# )
+st.set_page_config(
+    page_icon="🏙️",
+)
 
-st.title("Airbnb Listing Optimizer")
+st.title("Welcome to Airbnb New York!")
+st.subtitle("Let's optimize your listing")
 
 with st.form("form1", clear_on_submit= False): 
 
