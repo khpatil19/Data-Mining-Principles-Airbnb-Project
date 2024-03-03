@@ -1,9 +1,4 @@
 import pandas as pd
-import pandas as pd
-import numpy as np
-import matplotlib.pyplot as plt
-import warnings
-warnings.filterwarnings('ignore')
 import streamlit as st
 
 
@@ -60,6 +55,11 @@ with st.form("form1", clear_on_submit= False):
     if submit == True:
         #!/usr/bin/env python
         # coding: utf-8
+        import numpy as np
+        import seaborn as sns
+        import matplotlib.pyplot as plt
+        import warnings
+        warnings.filterwarnings('ignore')
 
         # In[1]:
 
