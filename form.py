@@ -1,8 +1,8 @@
 import pandas as pd
 import streamlit as st
 import numpy as np
-# import seaborn as sns
-# import matplotlib.pyplot as plt
+import seaborn as sns
+import matplotlib.pyplot as plt
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -230,7 +230,6 @@ with st.form("form1", clear_on_submit= False):
 
         # In[242]:
 
-        import sklearn
         from sklearn.preprocessing import StandardScaler
         from sklearn.decomposition import PCA
         from sklearn.cluster import KMeans
